@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+    <id>gruntroll</id>
+    <name>GruntRoll</name>
+    <description>Military service status verification</description>
+    <version>1.0</version>
+    <priority>100</priority>
+    <position>0</position>
+    <status>active</status>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="access_token">
+                        <name>access_token</name>
+                        <type>input</type>
+                    </item>
+                    <item id="X-Mashape-Key">
+                        <name>X-Mashape-Key</name>
+                        <type>input</type>
+                    </item>
+                </items>
+            </section>       
+        </sections>
+    </settings>
+</addon>
