@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
     <id>gruntroll</id>
-    <name>GruntRoll</name>
+    <name>GruntRoll Addon</name>
     <description>Military service status verification</description>
     <version>1.0</version>
     <priority>100</priority>
