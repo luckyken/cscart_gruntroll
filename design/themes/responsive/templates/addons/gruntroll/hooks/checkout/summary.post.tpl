@@ -1,4 +1,3 @@
-{if !is_array($smarty.session.cart.coupons.usamil)}
 <script type="text/javascript">
 	function showMilIdBox() {
 		var milDiv = document.getElementById('milIdBox');
@@ -29,7 +28,7 @@
                 					<input type="text" class="ty-input-text cm-hint" id="mil_dob" name="mil_dob" size="40" value="{__("mil_dob_ex")}" />
                 					<label for="mil_name" class="hidden cm-required">{__("mil_name")}</label>
                 					<input type="text" class="ty-input-text cm-hint" id="mil_name" name="mil_name" size="40" value="{__("mil_name")}" />
-                					<input type="text" class="ty-login__input cm-hint" id="mil_name" name="mil_name" size="40" value="{__("mil_ssn")}" />
+                					<input type="text" class="ty-login__input cm-hint" id="mil_ssn" name="mil_ssn" size="40" value="{__("mil_ssn")}" />
 									<div class="ty-checkout-buttons">
                                 		{include file="buttons/button.tpl" but_meta="ty-btn__primary" but_name="dispatch[checkout.check_mil_id]" but_text=__("check_id")}
                             		</div>
@@ -38,4 +37,3 @@
 					</div>
 				</td>
             </tr>
-{/if}
